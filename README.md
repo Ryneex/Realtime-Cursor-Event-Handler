@@ -4,7 +4,7 @@ This project solves a common problem a lot of frontend developers encounters whe
 
 ## Problem
 
-hover over the divs. when it becomes blue, try to scroll the site, when you scroll, even tho when your cursor isn't on top of the div, it still stays blue for some time. Sadly it is intentinal for high performance.
+hover over the div. when it becomes blue, try to scroll the site, even tho when your cursor isn't on top of the div, it still stays blue for some time. Sadly it is intentinal for high performance.
 
 [Preview the problem](https://ryneex.github.io/Realtime-Cursor-Event/problem.html)
 
@@ -18,7 +18,7 @@ import cursorEvent from "./cursorEvent.js";
 
 ### MouseMove event
 
-You need to call the **Cursor** function and pass an object to it, it needs two properties, event type and a callback function
+You need to call the **Cursor** function and pass an object to it, it needs two properties, event type and a callback function, it will return the cursor position
 
 ```js
 const parameter = {
@@ -33,7 +33,7 @@ cursorEvent(parameter);
 
 ### MouseOver event
 
-You need to call the **Cursor** function and pass an object to it, it needs three properties, event type, elem that the cursor should hover on and a callback function
+You need to call the **Cursor** function and pass an object to it, it needs three properties, event type, elem that the cursor should hover on and a callback function, it will return true or false when cursor is hovered over the element.
 
 ```js
 const element = document.querySelector(".element");
@@ -53,7 +53,7 @@ cursorEvent(parameter);
 
 ## Demo
 
-In this demo i will solve the problem i mentioned above by using a little bit of javascript
+In this demo solved the problem i mentioned above by using a little bit of javascript
 
 ```js
 import cursor from "./cursorEvent.js";
