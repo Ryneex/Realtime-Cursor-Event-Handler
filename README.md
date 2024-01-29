@@ -6,7 +6,7 @@ This project solves a common problem a lot of frontend developers encounters whe
 
 hover over the div. when it becomes blue, try to scroll the site, even tho when your cursor isn't on top of the div, it still stays blue for some time. Sadly it is intentinal for high performance.
 
-[Preview the problem](https://ryneex.github.io/Realtime-Cursor-Event/problem.html)
+[Preview the problem](https://ryneex.github.io/Realtime-Cursor-Event-Handler/problem.html)
 
 ## Usage / Examples
 
@@ -72,4 +72,4 @@ cursor({
 });
 ```
 
-[Preview the solution](https://ryneex.github.io/Realtime-Cursor-Event)
+[Preview the solution](https://ryneex.github.io/Realtime-Cursor-Event-Handler/)
