@@ -53,7 +53,7 @@ cursorEvent(parameter);
 
 ## Demo
 
-In this demo solved the problem i mentioned above by using a little bit of javascript
+In this demo i solved the problem i mentioned above by using a little bit of javascript
 
 ```js
 import cursor from "./cursorEvent.js";
