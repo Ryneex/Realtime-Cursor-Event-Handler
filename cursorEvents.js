@@ -1,4 +1,4 @@
-const cursorEvent = ({ event, elem, callback }) => {
+const cursorEvents = ({ event, elem, callback }) => {
     // Creating cursor variable that gets updated every time
     // the cursor position changes, it's only based on window.
     let cursor = { x: 0, y: 0 };
@@ -53,4 +53,4 @@ const cursorEvent = ({ event, elem, callback }) => {
     }
 };
 
-export default cursorEvent;
+export default cursorEvents;

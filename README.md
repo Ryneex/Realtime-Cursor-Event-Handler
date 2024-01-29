@@ -1,4 +1,4 @@
-# Realtime Cursor Position
+# Realtime Cursor Events
 
 This project solves a common problem a lot of frontend developers encounters when creating hover animations. this project tries to solve that problem.
 
@@ -13,7 +13,7 @@ hover over the div. when it becomes blue, try to scroll the site, even tho when 
 First of all import the function inside your script
 
 ```js
-import cursorEvent from "./cursorEvent.js";
+import cursorEvent from "./cursorEvents.js";
 ```
 
 ### MouseMove event
@@ -56,7 +56,7 @@ cursorEvent(parameter);
 In this demo i solved the problem i mentioned above by using a little bit of javascript, try to hover over the div and scroll
 
 ```js
-import cursor from "./cursorEvent.js";
+import cursor from "./cursorEvents.js";
 
 const div = document.querySelector("div");
 cursor({
