@@ -72,4 +72,5 @@ cursor({
 });
 ```
 
-[Preview the solution](https://ryneex.github.io/Realtime-Cursor-Event)
+<a href="https://ryneex.github.io/Realtime-Cursor-Event" target="_blank">Preview the solution</a>
+<iframe src="https://ryneex.github.io/Realtime-Cursor-Event"></iframe>
