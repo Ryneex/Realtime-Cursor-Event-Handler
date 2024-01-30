@@ -48,7 +48,7 @@ const cursorEvents = ({ event, elem, callback }) => {
                 }
                 break;
             default:
-                break;
+                throw new Error("Event type isn't specified, have you forgot to add event property ?");
         }
     }
 };
