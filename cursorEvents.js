@@ -37,5 +37,3 @@ const cursorEvents = ({ event, elem, callback }) => {
         }
     }
 };
-
-export default cursorEvents;
