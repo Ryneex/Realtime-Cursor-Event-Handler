@@ -10,10 +10,10 @@ hover over the div. when it becomes blue, try to scroll the site, even tho when 
 
 ## Usage / Examples
 
-First of all import the function inside your script
+First of all add this script inside your head
 
-```js
-import cursorEvent from "./cursorEvents.js";
+```html
+<script src="https://ryneex.github.io/Realtime-Cursor-Event-Handler/cursorEvents.js"></script>
 ```
 
 ### MouseMove event
@@ -28,7 +28,7 @@ const parameter = {
     },
 };
 
-cursorEvent(parameter);
+cursorEvents(parameter);
 ```
 
 ### MouseOver event
@@ -48,7 +48,7 @@ const parameter = {
     },
 };
 
-cursorEvent(parameter);
+cursorEvents(parameter);
 ```
 
 ## Demo
@@ -56,10 +56,8 @@ cursorEvent(parameter);
 In this demo i solved the problem i mentioned above by using a little bit of javascript, try to hover over the div and scroll
 
 ```js
-import cursor from "./cursorEvents.js";
-
 const div = document.querySelector("div");
-cursor({
+cursorEvents({
     event: "mouseover",
     elem: div,
     callback: (e) => {
