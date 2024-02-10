@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <scrip src="https://ryneex.github.io/Realtime-Cursor-Event-Handler/cursorEvents.js"></scrip>
         <style>
             body {
                 margin: 0;
@@ -28,10 +29,8 @@
         <div>Hover and then scroll</div>
 
         <script type="module">
-            import cursor from "./cursorEvents.js";
-
             const div = document.querySelector("div");
-            cursor({
+            cursorEvents({
                 event: "mouseover",
                 elem: div,
                 callback: (e) => {
